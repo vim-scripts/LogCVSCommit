@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=759
+
+I use this bit of vimscript to edit CVS commit messages.
+The message, including the affected files, is timestamped and
+written to a log file.  The log entry format looks like:
+________________________________________________________________________________
+Thu Sep  4 09:30:44 PDT 2003
+----------------------------
+ISSUE00007620 -- resolved
+Modified Files:
+ Tag: TEST_11_I6
+	grounddb/create/update_gcsapp_schema.sql 
+	grounddb/create/gcsapp/table/ans.sql
+
